@@ -1,0 +1,48 @@
+@import config
+@import utils
+
+.user-nav
+    margin-right: 7vw
+    margin-left: 45vw
+    position: absolute
+    right: 1vw
+
+    &__list
+        display: flex
+        flex-direction: column
+        //background-color: white
+        background-color: rgb(220, 220, 220)
+        width: 45vw
+        border-radius: 0 0 5vh 5vh 
+        position: relative
+        top: 0
+        z-index: 10
+        transform: translateY(-1vh)
+
+    .user
+        //margin-right: 5vw
+        justify-self: right
+        align-self: self-end
+        text-align: center
+
+        .line
+            @extend %line
+            justify-self: right
+            margin: 0
+
+    .option
+        text-align: center
+        position: relative
+        font-family: $font-main
+        margin: 5vh 0
+        z-index: 10
+
+    .option--show
+        display: none
+
+    
+@media only screen and (min-width: 992px) 
+    .user-nav
+        &__list
+            width: 20vw
+

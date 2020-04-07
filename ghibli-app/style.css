@@ -1,0 +1,1041 @@
+.user-nav .user .line, .edit .line, .header__top .login .line {
+  border: 2px solid #bfa276;
+  border-radius: 1vw;
+  margin: 1vw 0;
+}
+
+.edit .form .input, .register .input, .login .input {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 2vh;
+  height: 6vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.edit .form .submit, .register .submit, .login .submit {
+  border-radius: 5vh;
+  background-color: #bfa276;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.user-nav .user .line, .edit .line, .header__top .login .line {
+  border: 2px solid #bfa276;
+  border-radius: 1vw;
+  margin: 1vw 0;
+}
+
+.edit .form .input, .register .input, .login .input {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 2vh;
+  height: 6vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.edit .form .submit, .register .submit, .login .submit {
+  border-radius: 5vh;
+  background-color: #bfa276;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.header .submit {
+  padding: 0;
+}
+.header .search {
+  margin: 2vh 5vh 2vh 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .search__icon {
+  height: 5vh;
+  width: 5vh;
+  color: #8a8a8a;
+  padding-right: 2vw;
+  padding: 0;
+}
+.header .search__input {
+  margin: 1vw 0;
+  width: 67vw;
+  max-width: 60vw;
+  height: 5vh;
+  border-bottom: 3px solid grey;
+  font-size: 1.5rem;
+}
+
+.user-nav .user .line, .edit .line, .header__top .login .line {
+  border: 2px solid #bfa276;
+  border-radius: 1vw;
+  margin: 1vw 0;
+}
+
+.edit .form .input, .register .input, .login .input {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 2vh;
+  height: 6vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.edit .form .submit, .register .submit, .login .submit {
+  border-radius: 5vh;
+  background-color: #bfa276;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__top .logo {
+  height: 10vh;
+  width: 10vh;
+  margin: 2vh;
+}
+.header__top .login {
+  height: 8vh;
+  margin: 0 5vh;
+}
+.header__top .login__text {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.5rem;
+  font-weight: 10;
+}
+
+@media only screen and (min-width: 992px) {
+  #root .main {
+    border: none;
+    margin: 0;
+  }
+  #root .main .header {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    margin: 0 5vh;
+    z-index: 500;
+    background-color: white;
+  }
+  #root .main .header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #root .main .header .submit {
+    padding: 0;
+  }
+  #root .main .header .search {
+    position: absolute;
+    top: 0;
+    left: 40vw;
+    right: 40vw;
+  }
+  #root .main .header .search form {
+    display: flex;
+    flex-direction: row;
+  }
+  #root .main .header .search__icon {
+    height: 3vh;
+    width: 3vh;
+    margin-right: 3vw;
+  }
+  #root .main .header .search__input {
+    max-width: 30vw;
+  }
+}
+.user-nav .user .line, .edit .line, .header__top .login .line {
+  border: 2px solid #bfa276;
+  border-radius: 1vw;
+  margin: 1vw 0;
+}
+
+.edit .form .input, .register .input, .login .input {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 2vh;
+  height: 6vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.edit .form .submit, .register .submit, .login .submit {
+  border-radius: 5vh;
+  background-color: #bfa276;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.footer {
+  height: 40vh;
+  background-color: #bfa276;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.footer__container {
+  top: 80%;
+  text-align: center;
+}
+.footer__element {
+  position: absolute;
+  color: white;
+  font-family: "Comfortaa", cursive;
+  top: 80%;
+  right: 5%;
+  left: 5%;
+}
+
+@media only screen and (min-width: 992px) {
+  .main {
+    position: relative;
+    margin: 0;
+  }
+  .main .footer {
+    height: 10vh;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 500;
+  }
+  .main .footer__element {
+    transform: translateY(-20px);
+  }
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #bfa276;
+}
+.app__logo {
+  height: 30vw;
+  width: 30vw;
+  margin: 5vh;
+}
+.app__title {
+  font-family: "Comfortaa", cursive;
+}
+
+@media only screen and (min-width: 992px) {
+  .main {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+  }
+}
+.user-nav .user .line, .edit .line, .header__top .login .line {
+  border: 2px solid #bfa276;
+  border-radius: 1vw;
+  margin: 1vw 0;
+}
+
+.edit .form .input, .register .input, .login .input {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 2vh;
+  height: 6vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.edit .form .submit, .register .submit, .login .submit {
+  border-radius: 5vh;
+  background-color: #bfa276;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.results {
+  margin: 5vw;
+}
+.results__container .category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh 0;
+}
+.results__container .category__img {
+  width: 100%;
+  height: 30vh;
+  border-radius: 2vw;
+  position: relative;
+}
+.results__container .category__title {
+  position: absolute;
+  z-index: 5;
+  color: #414141;
+  font-family: "Comfortaa", cursive;
+}
+.results__container .category__opacity {
+  position: absolute;
+  z-index: 3;
+  background-color: white;
+  opacity: 0.5;
+  width: 85%;
+  height: 30vh;
+  border-radius: 2vw;
+}
+
+@media only screen and (min-width: 992px) {
+  .main .results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 8vh;
+    overflow: hidden;
+  }
+  .main .results__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .main .results__container .category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 14vw;
+    height: 60vh;
+    margin: 0 4vh;
+  }
+  .main .results__container .category__img {
+    object-fit: cover;
+    height: 60vh;
+    min-width: 10vw;
+    border-radius: 2vw;
+    position: relative;
+    translate: 50% 50%;
+  }
+  .main .results__container .category__title {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-family: "Comfortaa", cursive;
+  }
+  .main .results__container .category__opacity {
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 2vw;
+    width: 15vw;
+    height: 60vh;
+    min-width: 10vw;
+  }
+}
+.user-nav .user .line, .edit .line, .header__top .login .line {
+  border: 2px solid #bfa276;
+  border-radius: 1vw;
+  margin: 1vw 0;
+}
+
+.edit .form .input, .register .input, .login .input {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 2vh;
+  height: 6vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.edit .form .submit, .register .submit, .login .submit {
+  border-radius: 5vh;
+  background-color: #bfa276;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85vw;
+  overflow: scroll;
+}
+.results__title {
+  color: #414141;
+  font-family: "Comfortaa", cursive;
+  margin: 5vh;
+}
+.results .no-watchlist {
+  font-size: 1rem;
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  line-height: 5vh;
+  margin: 4vh 2vh 5vh 2vh;
+}
+.results .item {
+  min-height: 10vh;
+  max-height: 100%;
+  width: 80vw;
+  border-radius: 2vw;
+  background-color: #bfa276;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Comfortaa", cursive;
+  margin: 2vh 0;
+}
+.results .item-title {
+  color: white;
+  padding: 2vh;
+  line-height: 5vh;
+  text-align: center;
+}
+.results .item .watchlist {
+  align-self: center;
+  background-color: #bfa276;
+  border-radius: 3vh;
+  margin: 4vh;
+}
+.results .item .watchlist--clicked {
+  background-color: white;
+  border: 50% solid #bfa276;
+  color: white;
+  border-radius: 50%;
+  font-family: "Comfortaa", cursive;
+  width: 5vh;
+  height: 5vh;
+  align-items: center;
+  justify-content: center;
+  margin: 4vh;
+  align-self: center;
+  display: flex;
+}
+.results .item .watchlist__img {
+  height: 5vh;
+  width: 5vh;
+}
+.results .item .watchlist__text {
+  font-family: "Comfortaa", cursive;
+  align-self: center;
+  color: #bfa276;
+}
+.results .item .watchlist__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vh;
+  height: 5vh;
+}
+.results .item .watchlist__button--clicked {
+  color: black;
+}
+
+.no-results {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  display: flex;
+  margin: 13.5vh;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .results {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .results__title-container {
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    align-self: flex-start;
+  }
+  .results .results__title {
+    color: #414141;
+    font-family: "Comfortaa", cursive;
+    margin: 25vh 0;
+    font-size: 3rem;
+    transform: translateY(-90px);
+  }
+  .results__container {
+    flex-wrap: wrap;
+  }
+  .results .item {
+    height: 10vh;
+    width: 30vw;
+    border-radius: 2vw;
+    background-color: #bfa276;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Comfortaa", cursive;
+    margin: 2vh;
+    padding: 3vh 0;
+  }
+}
+.user-nav .user .line, .edit .line, .header__top .login .line {
+  border: 2px solid #bfa276;
+  border-radius: 1vw;
+  margin: 1vw 0;
+}
+
+.edit .form .input, .register .input, .login .input {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 2vh;
+  height: 6vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.edit .form .submit, .register .submit, .login .submit {
+  border-radius: 5vh;
+  background-color: #bfa276;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.details .poster-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Comfortaa", cursive;
+  color: #bfa276;
+  margin: 5vh;
+  text-align: center;
+}
+.details .poster-container .goback {
+  font-family: "Comfortaa", cursive;
+  color: #bfa276;
+  margin-bottom: 5vh;
+}
+.details .poster {
+  width: 80vw;
+  object-fit: cover;
+  border-radius: 10px;
+  align-self: center;
+}
+.details__image {
+  height: 30vh;
+  margin: auto;
+  margin-top: 0;
+  display: flex;
+  padding-bottom: 5vh;
+}
+.details__category {
+  font-family: "Comfortaa", cursive;
+  color: #bfa276;
+  margin: 5vh;
+}
+.details__info-text {
+  font-family: "Comfortaa", cursive;
+  margin: 5vh;
+  text-align: justify;
+  line-height: 5vh;
+}
+.details .watchlist {
+  align-self: center;
+  background-color: #bfa276;
+  border-radius: 3vh;
+  margin: 4vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.details .watchlist--clicked {
+  background-color: white;
+  border: 3px solid #bfa276;
+  color: #bfa276;
+  border-radius: 3vh;
+  margin: 4vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.details .watchlist__img {
+  height: 5vh;
+  width: 5vh;
+  color: white;
+}
+.details .watchlist__text {
+  padding: 3vw;
+  font-family: "Comfortaa", cursive;
+  color: black;
+}
+.details .watchlist__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details .watchlist__button--clicked {
+  color: black;
+}
+
+.goback {
+  font-family: "Comfortaa", cursive;
+  color: #bfa276;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin: 10vh;
+  margin-top: 4vh;
+}
+
+@media only screen and (min-width: 992px) {
+  .details {
+    margin: 0 10vw 10vh 10vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .details .poster-container {
+    display: flex;
+    align-self: flex-start;
+    width: 500vw;
+    justify-content: center;
+  }
+  .details .poster-container .poster {
+    max-width: 30vw;
+    max-height: 65vh;
+    object-fit: cover;
+    margin: 5vh auto;
+    position: fixed;
+    border-radius: 10px;
+  }
+  .details__info .featured {
+    text-align: center;
+    margin-top: 10vh;
+  }
+  .details .goback {
+    font-size: 1.5rem;
+    position: fixed;
+    transform: translateX(60vw);
+    font-family: "Comfortaa", cursive;
+    color: #bfa276;
+    margin: 5vh;
+    top: 10vh;
+  }
+  .details .watchlist {
+    flex-flow: row wrap;
+  }
+  .details .watchlist--clicked {
+    background-color: white;
+    border: 3px solid #bfa276;
+    color: #bfa276;
+    border-radius: 3vh;
+    margin: 4vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .details .watchlist__img {
+    height: 5vh;
+    width: 5vh;
+    color: white;
+  }
+  .details .watchlist__text {
+    padding: 3vw;
+    font-family: "Comfortaa", cursive;
+    font-size: 1rem;
+    color: black;
+    max-height: 1vh;
+  }
+  .details .watchlist__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .details .watchlist__button--clicked {
+    color: black;
+  }
+}
+.user-nav .user .line, .edit .line, .header__top .login .line {
+  border: 2px solid #bfa276;
+  border-radius: 1vw;
+  margin: 1vw 0;
+}
+
+.edit .form .input, .register .input, .login .input {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 2vh;
+  height: 6vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.edit .form .submit, .register .submit, .login .submit {
+  border-radius: 5vh;
+  background-color: #bfa276;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.login {
+  margin-top: 5vh;
+}
+.login .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login .not-registered {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  margin: 1vh 5vh 5vh 5vh;
+}
+.login .not-registered__link {
+  color: #bfa276;
+  margin: 1vh;
+}
+.login .not-registered__text {
+  margin: 1vh;
+}
+
+@media only screen and (min-width: 992px) {
+  .login {
+    height: 66vh;
+    margin-top: 10vh;
+  }
+}
+.user-nav .user .line, .edit .line, .header__top .login .line {
+  border: 2px solid #bfa276;
+  border-radius: 1vw;
+  margin: 1vw 0;
+}
+
+.edit .form .input, .register .input, .login .input {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 2vh;
+  height: 6vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.edit .form .submit, .register .submit, .login .submit {
+  border-radius: 5vh;
+  background-color: #bfa276;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.register {
+  margin: 5vh 0;
+}
+.register .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register .incentive {
+  font-family: "Comfortaa", cursive;
+  margin-top: 0;
+  margin: 3vh 4vh;
+  text-align: center;
+  line-height: 5vh;
+}
+
+@media only screen and (min-width: 992px) {
+  .register {
+    margin: 2vh;
+  }
+}
+.user-nav .user .line, .edit .line, .header__top .login .line {
+  border: 2px solid #bfa276;
+  border-radius: 1vw;
+  margin: 1vw 0;
+}
+
+.edit .form .input, .login .input, .register .input {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 2vh;
+  height: 6vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.edit .form .submit, .login .submit, .register .submit {
+  border-radius: 5vh;
+  background-color: #bfa276;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.edit {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.edit__title {
+  color: #414141;
+  font-family: "Comfortaa", cursive;
+  margin: 5vh;
+  text-align: center;
+  font-weight: 1;
+  font-size: 2rem;
+}
+.edit .line {
+  width: 60vw;
+  align-self: center;
+  display: flex;
+}
+.edit .edit-category {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: 5vh;
+  margin-top: 0;
+}
+.edit .edit-category .category {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  margin: 1vh;
+  color: #bfa276;
+}
+.edit .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.edit .form .submit {
+  font-size: 1rem;
+}
+.edit .form .message {
+  font-family: "Comfortaa", cursive;
+  margin-bottom: 3vh;
+}
+.edit .form .delete {
+  border-radius: 5vh;
+  background-color: gainsboro;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+.edit .button {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 8vh;
+  margin-top: 3vh;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #bfa276;
+  padding: 1vh 2vh;
+  text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .edit {
+    margin-bottom: 10vh;
+  }
+}
+.user-nav .user .line, .header__top .login .line, .edit .line {
+  border: 2px solid #bfa276;
+  border-radius: 1vw;
+  margin: 1vw 0;
+}
+
+.login .input, .register .input, .edit .form .input {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 2vh;
+  height: 6vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.login .submit, .register .submit, .edit .form .submit {
+  border-radius: 5vh;
+  background-color: #bfa276;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.user-nav {
+  margin-right: 7vw;
+  margin-left: 45vw;
+  position: absolute;
+  right: 1vw;
+}
+.user-nav__list {
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+  width: 45vw;
+  border-radius: 0 0 5vh 5vh;
+  position: relative;
+  top: 0;
+  z-index: 10;
+  transform: translateY(-1vh);
+}
+.user-nav .user {
+  justify-self: right;
+  align-self: self-end;
+  text-align: center;
+}
+.user-nav .user .line {
+  justify-self: right;
+  margin: 0;
+}
+.user-nav .option {
+  text-align: center;
+  position: relative;
+  font-family: "Comfortaa", cursive;
+  margin: 5vh 0;
+  z-index: 10;
+}
+.user-nav .option--show {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .user-nav__list {
+    width: 20vw;
+  }
+}
+.header__top .login .line, .edit .line, .user-nav .user .line {
+  border: 2px solid #bfa276;
+  border-radius: 1vw;
+  margin: 1vw 0;
+}
+
+.login .input, .register .input, .edit .form .input {
+  border-radius: 3vh;
+  border: 3px solid #bfa276;
+  margin: 2vh;
+  height: 6vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.login .submit, .register .submit, .edit .form .submit {
+  border-radius: 5vh;
+  background-color: #bfa276;
+  color: white;
+  padding: 2vh;
+  margin: 4vh;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.message {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: black;
+  font-family: "Comfortaa", cursive;
+}
+.message .container .text__container {
+  height: 40vh;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(211, 211, 211, 0.3);
+  border-radius: 5vh;
+  margin: 5vh;
+}
+
+body {
+  position: absolute;
+  width: 100vw;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+* {
+  margin: 0;
+}
+
+input {
+  border: 0;
+}
+
+button {
+  border-image: none;
+  border: none;
+  background: rgba(255, 255, 255, 0);
+}
+
+.main {
+  margin: 2vw;
+  border: 3px solid #bfa276;
+  border-radius: 2vh;
+}
+
+/*# sourceMappingURL=style.css.map */
